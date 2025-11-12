@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: cyberwoof-dotcom
+spec:
+  profile:
+    displayName: Bryan Noyahr
+    email: bryan@example.com
+  memberOf:
+    - development
