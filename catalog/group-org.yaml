@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cyberwoof-dotcom
+  description: GitHub organization for Bryan's projects
+spec:
+  type: organization
+  children:
+    - development
